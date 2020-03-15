@@ -1,0 +1,85 @@
+// Import a Google Font
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+
+
+.tutorial {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  figure.image {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  .brand-height{
+     
+  }
+  .article-height{
+     
+  }
+  figure .image img {
+    width: 128px;
+  }
+  
+  .notification {
+    margin-top: 20px !important;
+  }
+  
+   
+  .results {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+  .summary-highlight{
+    background-color: #fbda57 !important;
+  }
+  
+  .title .icon {
+    margin-left: 15px;
+  }
+  
+  .hero {
+    margin-bottom: 20px;
+  }
+  
+  .forms {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .dropdown-item img {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  
+// Set your brand colors
+ $purple: #216a61;
+$pink: #f8bd9e;
+$brown: #757763;
+$beige-light: #ffe8e2;
+$beige-lighter: #EFF0EB; 
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink; 
+
+// Update some of Bulma's component variables
+ $control-border-width: 2px;
+$input-background-color: $beige-lighter;
+$input-border-color: transparent;
+$input-shadow: none;
+@import '../vendors/bulma/bulma.sass' 
